@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>test</title>
+</head>
+<body>
+  <div>
+      <h4>{$data},{$person}</h4>
+  </div>
+  <br/>列表一：<br/>
+  <ul>
+      {foreach $arr1}
+      <li>{v}</li>
+      {/foreach}
+  </ul>
+  <br/>列表二：<br/>
+  <ul>
+      {loop $arr2}
+      <li>{v}</li>
+      {/loop}
+  </ul>
+  {if $a == '1'}a等于1
+  {elseif $a == '2'}a等于2
+  {else}a不等于1也不等于2
+  {/if}
+</body>
+</html>
