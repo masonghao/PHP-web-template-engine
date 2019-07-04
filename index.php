@@ -9,5 +9,5 @@ $data['arr1'] = array('123', '456', '789');
 $data['arr2'] = array('abc', 'def', 'ghi');
 $data['a'] = '2';
 
-$tpl->display('member', $data);
+$tpl->display('index', $data);
 ?>
